@@ -85,4 +85,19 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+
+  include mysql
+  include postgresql
+  include virtualbox
+  include vagrant
+  include firefox
+  include iterm2::stable
+  include skype
+  include vim
+  include cyberduck
+  include tmux
+  include hipchat
+  include chrome
+  include sourcetree
+  include vlc
 }

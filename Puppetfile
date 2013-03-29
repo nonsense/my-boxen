@@ -33,3 +33,19 @@ github "sudo",     "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "mysql", "1.0.1"
+github "sysctl", "1.0.0"
+github "postgresql", "1.0.0"
+github "virtualbox", "1.0.1"
+github "vagrant", "2.0.3"
+github "firefox", "1.0.5"
+github "iterm2", "1.0.2"
+github "skype", "1.0.2"
+github "vim", "1.0.2" 
+github "cyberduck", "1.0.0"
+github "tmux", "1.0.1"
+github "hipchat", "1.0.2"
+github "chrome", "1.1.0"
+github "sourcetree", "0.0.2", :repo => "jlgeering/puppet-sourcetree"
+github "vlc", "1.0.0"
