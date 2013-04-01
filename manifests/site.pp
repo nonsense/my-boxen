@@ -93,11 +93,15 @@ node default {
   include firefox
   include iterm2::stable
   include skype
-  include vim
+#  include vim
   include cyberduck
   include tmux
   include hipchat
   include chrome
   include sourcetree
   include vlc
+  include dropbox
+  include mplayerx
+  include postgresapp
+  include wget
 }
