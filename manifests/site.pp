@@ -101,7 +101,7 @@ node default {
   include sourcetree
   include vlc
   include dropbox
-  include mplayerx
-  include postgresapp
+#  include mplayerx
+#  include postgresapp
   include wget
 }
