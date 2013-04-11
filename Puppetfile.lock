@@ -59,6 +59,11 @@ GITHUBTARBALL
     iterm2 (1.0.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-java
+  specs:
+    java (1.0.6)
+
+GITHUBTARBALL
   remote: boxen/puppet-mysql
   specs:
     mysql (1.0.1)
@@ -109,6 +114,11 @@ GITHUBTARBALL
     tmux (1.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-transmission
+  specs:
+    transmission (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
     vagrant (2.0.3)
@@ -124,9 +134,9 @@ GITHUBTARBALL
     vlc (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-wget
+  remote: boxen/puppet-watts
   specs:
-    wget (1.0.0)
+    watts (1.0.0)
 
 GITHUBTARBALL
   remote: cprice-puppet/puppetlabs-inifile
@@ -134,9 +144,34 @@ GITHUBTARBALL
     inifile (0.9.0)
 
 GITHUBTARBALL
+  remote: crowdtap/puppet-rabbitmq
+  specs:
+    rabbitmq (0.3.0)
+
+GITHUBTARBALL
+  remote: geetarista/puppet-mplayerx
+  specs:
+    mplayerx (1.0.0)
+
+GITHUBTARBALL
+  remote: jasonamyers/puppet-libreoffice
+  specs:
+    libreoffice (1.0.0)
+
+GITHUBTARBALL
   remote: jlgeering/puppet-sourcetree
   specs:
     sourcetree (0.0.2)
+
+GITHUBTARBALL
+  remote: nonsense/puppet-gpgtools
+  specs:
+    gpgtools (0.0.1)
+
+GITHUBTARBALL
+  remote: nonsense/puppet-thunderbird
+  specs:
+    thunderbird (0.0.1)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
@@ -152,25 +187,32 @@ DEPENDENCIES
   firefox (= 1.0.5)
   gcc (= 1.0.0)
   git (= 1.0.0)
+  gpgtools (= 0.0.1)
   hipchat (= 1.0.2)
   homebrew (= 1.1.2)
   hub (= 1.0.0)
   inifile (= 0.9.0)
   iterm2 (= 1.0.2)
+  java (= 1.0.6)
+  libreoffice (= 1.0.0)
+  mplayerx (= 1.0.0)
   mysql (= 1.0.1)
   nginx (= 1.1.0)
   nodejs (= 1.0.0)
   nvm (= 1.0.0)
   postgresql (= 1.0.0)
+  rabbitmq (= 0.3.0)
   ruby (= 3.1.0)
   skype (= 1.0.2)
   sourcetree (= 0.0.2)
   stdlib (= 3.0.0)
   sudo (= 1.0.0)
   sysctl (= 1.0.0)
+  thunderbird (= 0.0.1)
   tmux (= 1.0.1)
+  transmission (= 1.0.0)
   vagrant (= 2.0.3)
   virtualbox (= 1.0.1)
   vlc (= 1.0.0)
-  wget (= 1.0.0)
+  watts (= 1.0.0)
 
